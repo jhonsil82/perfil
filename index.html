@@ -1,70 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingeniero Jhon Silva - Portafolio Profesional</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ingeniero Jhon - Portafolio Profesional</title>
+  <style>
+    /* Fondo cibernético animado */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+      color: #e0e0e0;
+      background-attachment: fixed;
+      background-size: cover;
+      animation: bgAnimation 20s infinite alternate;
+    }
 
-        header, footer {
-            background: #333;
-            color: #fff;
-            padding: 1rem 2rem;
-            text-align: center;
-        }
+    @keyframes bgAnimation {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 100% 100%;
+      }
+    }
 
-        nav {
-            background: #444;
-            padding: 0.5rem;
-            text-align: center;
-        }
+    header, footer {
+      background: rgba(0, 0, 0, 0.8);
+      color: #00f7ff;
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 2px solid #00f7ff;
+    }
 
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1rem;
-        }
+    nav {
+      background: #1a1a1a;
+      padding: 0.5rem;
+      text-align: center;
+    }
 
-        .container {
-            max-width: 1000px;
-            margin: auto;
-            padding: 2rem;
-            background: #fff;
-        }
+    nav a {
+      color: #00f7ff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
 
-        section {
-            margin-bottom: 2rem;
-        }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00f7ff;
+    }
 
-        h2 {
-            border-bottom: 2px solid #444;
-            padding-bottom: 0.5rem;
-        }
+    section {
+      margin-bottom: 2rem;
+    }
 
-        iframe {
-            width: 100%;
-            height: 315px;
-            border: none;
-        }
+    h2 {
+      border-bottom: 2px solid #00f7ff;
+      padding-bottom: 0.5rem;
+      color: #00f7ff;
+    }
 
-        ul {
-            list-style-type: square;
-            padding-left: 1.5rem;
-        }
+    ul {
+      list-style: square;
+      padding-left: 1.5rem;
+    }
 
-        .contacto p {
-            margin: 0.3rem 0;
-        }
-    </style>
+    a {
+      color: #00e0ff;
+    }
+
+    iframe {
+      width: 100%;
+      height: 315px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #00f7ff;
+    }
+
+    .contacto p {
+      margin: 0.3rem 0;
+    }
+
+    .contador {
+      margin-top: 2rem;
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
 
     <header>
